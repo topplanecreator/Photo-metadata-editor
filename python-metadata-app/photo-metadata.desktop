@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Photo Metadata Tool
+Comment=Edit EXIF metadata on images
+Exec=python3 -c 
+"execfile('/home/michael/photo-metadata-app/metadata_handler.py'); 
+execfile('/home/michael/photo-metadata-app/main.py')"
+Icon=/home/michael/photo-metadata-app/icon.png
+Terminal=false
+Type=Application
+Categories=Graphics;Photography;
